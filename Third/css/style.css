@@ -10,18 +10,22 @@ body{
   font-family: arial;
   display: flex;  
   padding-top: 30px;
-}
+ }
 a{
 	color:black;
 	padding-left: 44px;
+  text-decoration: none;
+}
+a:hover{
+color:   #D1A33D;
+
 }
 .left{
 	margin-left: 18px;
-  text-decoration: none;
+  
 }
 .right{
   margin-left: 56.5%;
-  text-decoration: none;
 }
 .banner{
   width:85%; 
