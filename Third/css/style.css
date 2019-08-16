@@ -1,0 +1,32 @@
+body{
+	background-color: white;
+}
+.header{
+  overflow: hidden;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: arial;
+  display: flex;  
+  padding-top: 30px;
+}
+a{
+	color:black;
+	padding-left: 44px;
+}
+.left{
+	margin-left: 18px;
+  text-decoration: none;
+}
+.right{
+  margin-left: 56.5%;
+  text-decoration: none;
+}
+.banner{
+  width:85%; 
+}
+.banner img{
+  padding: 63px;
+  padding-top:94px;
+}
