@@ -8,46 +8,69 @@ body{
   top: 0;
   width: 100%;
   font-family: arial;
-  display: flex;  
+  display: flex;
   padding-top: 30px;
- }
+
+}
 a{
 	color:black;
 	padding-left: 44px;
   text-decoration: none;
 }
-a:hover{
-color:   #D1A33D;
-
-}
 .left{
 	margin-left: 18px;
-  
 }
 .right{
-  margin-left: 56.5%;
+  margin-left: 60%;
+}
+a:hover{
+color: #D1A33D;
 }
 .banner{
-  width:85%; 
+  width:100%;
+	padding-top: 58px;
 }
 .banner img{
   padding: 63px;
-  padding-top:94px;
+  padding-top: 13px;
+	filter:brightness(0.5);
+	width: 93%;
+}
+.text1{
+ letter-spacing: 0.5em;
+ color: white;
+ font-size: 100px;
+ position: absolute;
+ top: 33%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ letter-spacing: 0.5em;
+ font:normal normal normal 50px/1.4em raleway,sans-serif;
+}
+.text2{
+	letter-spacing: 0.5em;
+  color: white;
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%, 130%);
+  letter-spacing: 0.5em;
+  font:normal normal normal 25px/1.4em raleway,sans-serif;
 }
 .vl {
   border-left: 1px solid grey;
   height: 100px;
-  margin-left: 50%; 
+  margin-left: 50%;
   margin-top: -64px;
 }
 .About{
-  font-family: Arial,Helvetica,sans-serif; 
+  font-family: Arial,Helvetica,sans-serif;
   color:#BABABA;
   letter-spacing: 0.1em;
   margin-top:20px;
 }
 .content1{
-  font-family: Helvetica,sans-serif; 
+  font-family: Helvetica,sans-serif;
   font-size: 25px;
   margin-top: 50px;
   padding-left: 550px;
@@ -60,11 +83,11 @@ color:   #D1A33D;
 .vl2{
   border-left: 1px solid grey;
   height: 100px;
-  margin-left: 50%; 
+  margin-left: 50%;
   margin-top: 1px;
 }
 .portfolio{
-  font-family: Arial,Helvetica,sans-serif; 
+  font-family: Arial,Helvetica,sans-serif;
   color:#BABABA;
   letter-spacing: 0.1em;
   margin-top:40px;
